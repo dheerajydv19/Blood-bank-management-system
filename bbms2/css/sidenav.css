@@ -1,0 +1,61 @@
+/* sidenav.css */
+/* Side Navigation Styles */
+.sidenav {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    z-index: 1;
+    top: 80px;
+    left: 0;
+    background-color: #87CEEB;
+    padding-top: 20px;
+}
+
+.sidenav a {
+    padding: 15px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #333;
+    display: block;
+    transition: color 0.3s;
+}
+
+.sidenav a:hover {
+    color: white;
+}
+
+/* Admin Panel Styles */
+.admin-panel {
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: #87CEEB;
+    color: white;
+}
+
+.admin-panel h2 {
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+}
+
+.admin-panel p {
+    margin: 5px 0 0;
+    font-size: 14px;
+}
+
+.name-card {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    background-color: #555;
+    color: white;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.name-card img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 20px;
+}

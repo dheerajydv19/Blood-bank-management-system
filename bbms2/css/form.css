@@ -1,0 +1,76 @@
+/* form.css */
+/* Style for the form container */
+#form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin-top: 20px;
+}
+
+/* Style for the form table */
+#form table {
+    border-collapse: collapse;
+    width: 80%;
+    margin-top: 10px;
+    margin-left: 210px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for table header cells */
+#form th {
+    background-color: #f2f2f2;
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Style for table data cells */
+#form td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Style for table row on hover */
+#form tr:hover {
+    background-color: #f5f5f5;
+}
+
+/* Style for alternate table rows */
+#form tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Remove bottom border for the last table row */
+#form tr:last-child {
+    border-bottom: none;
+}
+
+/* Style for form input and select fields */
+#form input[type="text"],
+#form textarea,
+#form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+/* Style for form submit button */
+#form input[type="Submit"] {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Style for form submit button on hover */
+#form input[type="Submit"]:hover {
+    background-color: #45a049;
+}

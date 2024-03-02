@@ -1,0 +1,40 @@
+#form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#form table {
+    border-collapse: collapse;
+    width: 90%; /* Adjust the width as needed */
+    max-width: 800px; /* Set a maximum width if necessary */
+    margin: 20px auto; /* Adjust the margins based on your layout */
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#form th,
+#form td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+#form th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+#form tr:hover {
+    background-color: #f5f5f5;
+}
+
+#form tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+#form tr:last-child {
+    border-bottom: none;
+}
